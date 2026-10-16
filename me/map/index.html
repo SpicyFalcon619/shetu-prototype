@@ -1,0 +1,74 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Shetu · Map</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+<style>
+:root{--ink:#222023;--teal:#BF092F;--teal-d:#BF092F;--mint:#FBE6EA;--coral:#BF092F;--coral-l:#FBE6EA;--sun:#D99A1E;--sun-l:#FBF0D8;--lav:#8C0622;--lav-l:#F1E9DC;
+--paper:#F8F4EC;--bg:#F8F4EC;--line:#E8DFD2;--muted:#6B6366;--green:#2E9E5B;--green-l:#E1F5E9;--rose:#F2B8C3;--purple:#BF092F}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font:15px/1.45 "Plus Jakarta Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:inherit;text-decoration:none}
+h1{font:800 26px/1.1 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em}
+h2{font:800 19px/1.2 "Bricolage Grotesque",sans-serif}
+.sub{color:var(--muted);font-size:13.5px;margin-top:4px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.k{font:800 11px/1 "Plus Jakarta Sans";letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.d-green{background:var(--green)}.d-amber{background:var(--sun)}.d-red{background:var(--coral)}
+.btn{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:10px;padding:9px 15px;font:700 13px "Plus Jakarta Sans";background:var(--teal);color:#fff;cursor:pointer}
+.btn.g{background:#EEF1F6;color:var(--muted)}.btn.done{background:var(--green)}
+.btn svg{width:15px;height:15px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:11px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;padding:8px 8px;font-weight:800}
+td{padding:11px 8px;border-top:1px solid var(--line);vertical-align:middle}
+.demo{font-size:11.5px;color:var(--muted)}
+.bar{height:8px;border-radius:6px;background:#EEF1F6;overflow:hidden}.bar>span{display:block;height:100%;border-radius:6px}
+</style>
+<style>
+body{background:#F8F4EC}
+.phone{max-width:430px;margin:0 auto;min-height:100vh;background:#fff;display:flex;flex-direction:column;box-shadow:0 0 60px rgba(14,27,58,.08)}
+.bar-top{display:flex;align-items:center;gap:10px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.bar-top img{height:30px}
+.content{padding:18px;flex:1;display:grid;gap:12px;align-content:start}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);background:#fff;position:sticky;bottom:0}
+.tabs a{display:grid;justify-items:center;gap:3px;padding:9px 0 11px;font-size:11.5px;font-weight:700;color:var(--muted)}
+.tabs a.on{color:var(--teal-d)}.tabs svg{width:20px;height:20px}
+.bub{max-width:86%;padding:10px 13px;border-radius:16px;font-size:14px}
+.bub.s{background:var(--ink);color:#fff;border-bottom-left-radius:4px}
+.bub.me{background:var(--lav-l);color:#3F33B0;margin-left:auto;border-bottom-right-radius:4px}
+.chipsel{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border-radius:999px;border:2px solid var(--line);font-weight:700;font-size:13px;cursor:pointer;background:#fff}
+.chipsel.on{border-color:var(--teal);background:var(--mint);color:var(--teal-d)}
+</style></head><body>
+<div class="phone">
+ <div class="bar-top"><img src="../../static/shetu_logo.png"><span style="font-size:13px;color:var(--muted);margin-left:auto">Bank Alpha</span></div>
+ <div class="content">
+<div><p class="k">Map · before leave</p><h1 style="margin-top:6px">Tell Shetu about your work</h1><p class="sub">Type or speak, in Bangla or English. About 15 minutes.</p></div>
+
+<div class="bub s">Walk me through a normal week. What do you do, and when?</div><div class="bub me">Ami mainly corporate clients handle kori, around 14 ta account. Every week client der sathe relationship calls thake, mostly Sunday ar Monday, eta office theke kori. Protiti Tuesday sondha 6 ta theke 7:30 porjonto credit pre-meeting hoy, oikhane ami amar clients er loan proposals present kori.</div>
+
+<div class="bub s">Anything monthly, or that needs travel?</div><div class="bub me">Mashe ekbar Chattogram jai, oikhane amar tin ta client er factory visit korte hoy, usually two days lage. Ar mash sheshe ekta portfolio report CFO office e pathai, eta ghore bose o kora jay.</div>
+
+<div class="bub s">Anything coming up during your leave?</div><div class="bub me">Haan, clients C, D ar E er trade finance renewals April er 10 tarikh er moddhe due. Oder statements gula shudhu amar email e ache. Rafiq bhai cover korbe bole plan, kintu uni ei client der sathe kokhono kaj koren ni.</div>
+
+<div class="bub s">Could you share when during the quarter this review typically happens and how long it takes to complete?</div><div class="bub me">Yes, it often runs until 9 pm on the last two days of the quarter.</div>
+<div style="display:flex;gap:8px;align-items:center;border:2px solid var(--line);border-radius:14px;padding:8px 10px"><i data-lucide="mic" style="color:var(--teal-d)"></i><span style="color:var(--muted);font-size:13.5px;flex:1">Hold to speak…</span><i data-lucide="send" style="color:var(--muted)"></i></div>
+<div class="card"><p class="k">Your Role Map · 6 duties</p>
+ <div style="display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:13.5px"><span>Client relationship calls</span>
+  </div><div style="display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:13.5px"><span>Credit pre-meeting</span>
+  </div><div style="display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:13.5px"><span>Client factory visit</span>
+  </div><div style="display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:13.5px"><span>Portfolio report submission</span>
+  </div><div style="display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:13.5px"><span>Trade finance renewal follow-up</span>
+  <span class="pill" style="background:var(--coral-l);color:#BF092F">High</span></div><div style="display:flex;justify-content:space-between;gap:8px;margin-top:10px;font-size:13.5px"><span>Quarter-end loan classification review <span class="pill" style="background:var(--lav-l);color:#BF092F">found</span></span>
+  <span class="pill" style="background:var(--coral-l);color:#BF092F">High</span></div>
+ <div style="display:flex;gap:8px;margin-top:14px"><button class="btn" data-confirm><i data-lucide="check"></i>Looks right</button><button class="btn g">Edit</button></div></div>
+</div>
+ <nav class="tabs">
+  <a href="../../me/" class=""><i data-lucide="home"></i>Home</a>
+  <a href="../../me/map/" class="on"><i data-lucide="map"></i>Map</a>
+  <a href="../../me/hold/" class=""><i data-lucide="shield-check"></i>Hold</a>
+  <a href="../../me/fit/" class=""><i data-lucide="puzzle"></i>Fit</a>
+ </nav>
+</div>
+<script>lucide.createIcons();document.querySelectorAll('.chipsel').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('on')));
+document.querySelectorAll('[data-confirm]').forEach(b=>b.addEventListener('click',()=>{b.classList.add('done');b.innerHTML='Done'}));</script>
+</body></html>

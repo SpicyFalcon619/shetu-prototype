@@ -1,0 +1,133 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Shetu for HR · Case</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+<style>
+:root{--ink:#222023;--teal:#BF092F;--teal-d:#BF092F;--mint:#FBE6EA;--coral:#BF092F;--coral-l:#FBE6EA;--sun:#D99A1E;--sun-l:#FBF0D8;--lav:#8C0622;--lav-l:#F1E9DC;
+--paper:#F8F4EC;--bg:#F8F4EC;--line:#E8DFD2;--muted:#6B6366;--green:#2E9E5B;--green-l:#E1F5E9;--rose:#F2B8C3;--purple:#BF092F}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font:15px/1.45 "Plus Jakarta Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:inherit;text-decoration:none}
+h1{font:800 26px/1.1 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em}
+h2{font:800 19px/1.2 "Bricolage Grotesque",sans-serif}
+.sub{color:var(--muted);font-size:13.5px;margin-top:4px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.k{font:800 11px/1 "Plus Jakarta Sans";letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.d-green{background:var(--green)}.d-amber{background:var(--sun)}.d-red{background:var(--coral)}
+.btn{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:10px;padding:9px 15px;font:700 13px "Plus Jakarta Sans";background:var(--teal);color:#fff;cursor:pointer}
+.btn.g{background:#EEF1F6;color:var(--muted)}.btn.done{background:var(--green)}
+.btn svg{width:15px;height:15px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:11px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;padding:8px 8px;font-weight:800}
+td{padding:11px 8px;border-top:1px solid var(--line);vertical-align:middle}
+.demo{font-size:11.5px;color:var(--muted)}
+.bar{height:8px;border-radius:6px;background:#EEF1F6;overflow:hidden}.bar>span{display:block;height:100%;border-radius:6px}
+</style>
+<style>
+.shell{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.side{background:var(--purple);color:#FBE6EA;padding:22px 16px;display:flex;flex-direction:column;gap:6px}
+.side img{height:56px;width:auto;align-self:flex-start;margin:0 8px 18px}
+.side a{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;font-weight:600;font-size:14px}
+.side a.on{background:#fff;color:#BF092F}
+.side a svg{width:18px;height:18px}
+.side .who{margin-top:auto;font-size:12.5px;padding:12px;border-top:1px solid rgba(255,255,255,.18)}
+.main{padding:26px 32px}
+.top{display:flex;align-items:flex-end;justify-content:space-between;margin-bottom:20px}
+</style></head><body>
+<div class="shell">
+ <nav class="side">
+  <img src="../../../static/shetu_logo_white.png" alt="Shetu">
+  <a href="../../../employer/" class=""><i data-lucide="layout-dashboard"></i>All leaves</a>
+  <a href="../../../employer/case/nusrat/" class="on"><i data-lucide="user-round"></i>Case: Nusrat</a>
+  <a href="../../../employer/team/" class=""><i data-lucide="users"></i>Team capacity</a>
+  <a href="../../../employer/report/" class=""><i data-lucide="bar-chart-3"></i>Leadership report</a>
+  <a href="../../../me/"><i data-lucide="smartphone"></i>Switch to employee app</a>
+  <div class="who"><b style="color:#fff">Bank Alpha · HR</b><br>Signed in as Shabnam (HR Manager)<br><span style="opacity:.7">Demo data · AI run offline</span></div>
+ </nav>
+ <main class="main">
+<div class="top"><div><p class="k">Case · manager: Imran Hossain</p><h1 style="margin-top:6px">Nusrat Rahman</h1>
+ <p class="sub">Senior Relationship Manager · leave 2027-03-01 to 2027-08-31 · returns 2027-09-01</p></div>
+ <div style="display:flex;gap:6px"><span class="pill" style="background:var(--green-l);color:var(--green)">Map done</span><span class="pill" style="background:var(--green-l);color:var(--green)">Hold active</span><span class="pill" style="background:var(--coral-l);color:#BF092F">Fit: 3 to confirm</span></div></div>
+
+<div style="display:grid;grid-template-columns:1fr 360px;gap:16px">
+ <div style="display:grid;gap:16px;align-content:start">
+  <div class="card"><div style="display:flex;justify-content:space-between;align-items:center"><h2>Role Map</h2><span class="demo">Built by AI from her conversation, cross-checked with her job description</span></div>
+   <table style="margin-top:8px"><tr><th>Duty</th><th>When</th><th>Where</th><th>Critical</th><th>Cover during leave</th></tr>
+   <tr>
+    <td><b>Client relationship calls</b></td>
+    <td style="font-size:13px">Sunday</td>
+    <td style="font-size:13px">office</td>
+    <td><span class="pill" style="background:#EEF1F6;color:var(--muted)">Medium</span></td>
+    <td style="font-size:13px">Imran</td></tr><tr>
+    <td><b>Credit pre-meeting</b></td>
+    <td style="font-size:13px">Tuesday, 18:00–19:30</td>
+    <td style="font-size:13px">office</td>
+    <td><span class="pill" style="background:#EEF1F6;color:var(--muted)">Medium</span></td>
+    <td style="font-size:13px">Imran</td></tr><tr>
+    <td><b>Client factory visit</b></td>
+    <td style="font-size:13px">monthly</td>
+    <td style="font-size:13px">travel</td>
+    <td><span class="pill" style="background:#EEF1F6;color:var(--muted)">Medium</span></td>
+    <td style="font-size:13px">Tania</td></tr><tr>
+    <td><b>Portfolio report submission</b></td>
+    <td style="font-size:13px">monthly</td>
+    <td style="font-size:13px">office</td>
+    <td><span class="pill" style="background:#EEF1F6;color:var(--muted)">Medium</span></td>
+    <td style="font-size:13px">Imran</td></tr><tr>
+    <td><b>Trade finance renewal follow-up</b></td>
+    <td style="font-size:13px">one-off<br><b style="color:#BF092F">due 10 April</b></td>
+    <td style="font-size:13px">office</td>
+    <td><span class="pill" style="background:var(--coral);color:#fff">High</span></td>
+    <td style="font-size:13px"><b>Tania</b> <span class="demo">(was Rafiq)</span></td></tr><tr>
+    <td><b>Quarter-end loan classification review</b> <span class="pill" style="background:var(--lav-l);color:#BF092F">from job description</span></td>
+    <td style="font-size:13px">last 2 days of quarter, 17:00–21:00<br><b style="color:#BF092F">due 30 September</b></td>
+    <td style="font-size:13px">office</td>
+    <td><span class="pill" style="background:var(--coral);color:#fff">High</span></td>
+    <td style="font-size:13px">Tania</td></tr>
+   </table></div>
+
+  <div class="card"><h2>Return Fit Check</h2><p class="sub">Her needs: home by 17:30 · Wednesdays at home · no travel until December. Her reasons are never shown.</p>
+   <div style="display:grid;gap:10px;margin-top:12px">
+   <div data-row style="display:grid;grid-template-columns:16px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px">
+     <span class="dot d-amber"></span>
+     <div><b>Credit pre-meeting</b> <span class="demo">· runs until 19:30, after her 17:30 finish</span>
+      <div style="font-size:13.5px;margin-top:4px"><b style="color:var(--teal-d)">Proposed:</b> Move the credit pre-meeting to end by 17:00 to fit within the 17:30 policy limit.</div>
+      </div>
+     <button class="btn" data-confirm><i data-lucide="check"></i>Confirm</button></div><div data-row style="display:grid;grid-template-columns:16px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px">
+     <span class="dot d-amber"></span>
+     <div><b>Client factory visit</b> <span class="demo">· needs travel; she has no travel until December</span>
+      <div style="font-size:13.5px;margin-top:4px"><b style="color:var(--teal-d)">Proposed:</b> Tania takes the client factory visit until December</div>
+      <div style="font-size:12px;color:#B26A00;margin-top:3px">Rejected by rules: Schedule the factory visit to start 30 days earlier to align with her return and travel availability. (starting earlier doesn&#39;t remove the travel)</div><div style="font-size:12px;color:#B26A00;margin-top:3px">Rejected by rules: Reassign the client factory visit to Rafiq, who can manage the visit instead. (Rafiq is near his limit (2 h spare))</div></div>
+     <button class="btn" data-confirm><i data-lucide="check"></i>Confirm</button></div><div data-row style="display:grid;grid-template-columns:16px 1fr auto;gap:12px;align-items:center;border:1px solid var(--line);border-radius:12px;padding:12px 14px">
+     <span class="dot d-amber"></span>
+     <div><b>Quarter-end loan classification review</b> <span class="demo">· runs until 21:00, after her 17:30 finish</span>
+      <div style="font-size:13.5px;margin-top:4px"><b style="color:var(--teal-d)">Proposed:</b> Start 3 days earlier so she signs off by 17:00</div>
+      <div style="font-size:12px;color:#B26A00;margin-top:3px">Rejected by rules: Reschedule the loan classification review to end by 17:00 to comply with the 17:30 policy. (it is a piece of work, not a meeting)</div></div>
+     <button class="btn" data-confirm><i data-lucide="check"></i>Confirm</button></div>
+   </div></div>
+ </div>
+
+ <div style="display:grid;gap:14px;align-content:start">
+  <div class="card" style="border:2px solid var(--sun)"><p class="k" style="color:#8A5A00">Dropped-work alert</p>
+   <p style="font-weight:700;margin-top:8px">Trade finance renewal follow-up due 2027-04-10</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Rafiq has never handled clients C, D, E.</p>
+   <p style="font-size:13px;margin-top:8px">Suggested: <b>Tania</b>, who knows the clients.</p>
+   <div style="display:flex;gap:8px;margin-top:10px"><button class="btn done">Confirmed</button></div></div>
+  <div class="card" style="border:2px solid var(--lav)"><p class="k" style="color:#BF092F">Found by Shetu · nobody had listed it</p>
+   <p style="font-weight:700;margin-top:8px">Complete the quarter-end loan classification review for her portfolio</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Asked her: "Could you share when during the quarter this review typically happens and how long it takes to complete?"</p></div>
+  <div class="card"><p class="k">Team capacity</p>
+   <div style="margin-top:12px"><div style="display:flex;justify-content:space-between;font-size:13.5px"><b>Rafiq</b><span class="demo">2 h/week spare</span></div>
+    <div class="bar" style="margin-top:6px"><span style="width:84%;background:var(--coral)"></span></div>
+    <p style="font-size:12px;color:#BF092F;margin-top:4px">Near his limit: Shetu won't assign him more</p></div><div style="margin-top:12px"><div style="display:flex;justify-content:space-between;font-size:13.5px"><b>Tania</b><span class="demo">8 h/week spare</span></div>
+    <div class="bar" style="margin-top:6px"><span style="width:36%;background:var(--teal)"></span></div>
+    </div></div>
+  <div class="card"><p class="k">Held in her name · change log</p>
+   <div style="margin-top:10px;font-size:13px"><b>2027-05-14</b> · Client F moved to Rafiq after a merger <span class="pill" style="background:var(--green-l);color:var(--green)">HR approved</span></div><div style="margin-top:10px;font-size:13px"><b>2027-06-30</b> · Mid-year review <span class="pill" style="background:var(--green-l);color:var(--green)">Fair leave rule applied</span></div><div style="margin-top:10px;font-size:13px"><b>2027-07-20</b> · Promotion board <span class="pill" style="background:var(--green-l);color:var(--green)">Considered</span></div></div>
+ </div>
+</div>
+</main>
+</div>
+<script>lucide.createIcons();
+document.querySelectorAll('[data-confirm]').forEach(b=>b.addEventListener('click',()=>{b.classList.add('done');b.innerHTML='Confirmed';const r=b.closest('[data-row]');if(r){const d=r.querySelector('.dot');if(d){d.className='dot d-green'}}}));
+</script>
+</body></html>

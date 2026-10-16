@@ -1,0 +1,64 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Shetu · Hold</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<script src="https://cdn.jsdelivr.net/npm/lucide@0.460.0/dist/umd/lucide.min.js"></script>
+<style>
+:root{--ink:#222023;--teal:#BF092F;--teal-d:#BF092F;--mint:#FBE6EA;--coral:#BF092F;--coral-l:#FBE6EA;--sun:#D99A1E;--sun-l:#FBF0D8;--lav:#8C0622;--lav-l:#F1E9DC;
+--paper:#F8F4EC;--bg:#F8F4EC;--line:#E8DFD2;--muted:#6B6366;--green:#2E9E5B;--green-l:#E1F5E9;--rose:#F2B8C3;--purple:#BF092F}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font:15px/1.45 "Plus Jakarta Sans",system-ui,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:inherit;text-decoration:none}
+h1{font:800 26px/1.1 "Bricolage Grotesque",sans-serif;letter-spacing:-.02em}
+h2{font:800 19px/1.2 "Bricolage Grotesque",sans-serif}
+.sub{color:var(--muted);font-size:13.5px;margin-top:4px}
+.card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:16px 18px}
+.k{font:800 11px/1 "Plus Jakarta Sans";letter-spacing:.12em;text-transform:uppercase;color:var(--muted)}
+.pill{display:inline-flex;align-items:center;gap:6px;padding:4px 11px;border-radius:999px;font-size:12px;font-weight:700;white-space:nowrap}
+.dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:none}
+.d-green{background:var(--green)}.d-amber{background:var(--sun)}.d-red{background:var(--coral)}
+.btn{display:inline-flex;align-items:center;gap:6px;border:0;border-radius:10px;padding:9px 15px;font:700 13px "Plus Jakarta Sans";background:var(--teal);color:#fff;cursor:pointer}
+.btn.g{background:#EEF1F6;color:var(--muted)}.btn.done{background:var(--green)}
+.btn svg{width:15px;height:15px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{text-align:left;font-size:11px;color:var(--muted);letter-spacing:.08em;text-transform:uppercase;padding:8px 8px;font-weight:800}
+td{padding:11px 8px;border-top:1px solid var(--line);vertical-align:middle}
+.demo{font-size:11.5px;color:var(--muted)}
+.bar{height:8px;border-radius:6px;background:#EEF1F6;overflow:hidden}.bar>span{display:block;height:100%;border-radius:6px}
+</style>
+<style>
+body{background:#F8F4EC}
+.phone{max-width:430px;margin:0 auto;min-height:100vh;background:#fff;display:flex;flex-direction:column;box-shadow:0 0 60px rgba(14,27,58,.08)}
+.bar-top{display:flex;align-items:center;gap:10px;padding:14px 18px;border-bottom:1px solid var(--line)}
+.bar-top img{height:30px}
+.content{padding:18px;flex:1;display:grid;gap:12px;align-content:start}
+.tabs{display:grid;grid-template-columns:repeat(4,1fr);border-top:1px solid var(--line);background:#fff;position:sticky;bottom:0}
+.tabs a{display:grid;justify-items:center;gap:3px;padding:9px 0 11px;font-size:11.5px;font-weight:700;color:var(--muted)}
+.tabs a.on{color:var(--teal-d)}.tabs svg{width:20px;height:20px}
+.bub{max-width:86%;padding:10px 13px;border-radius:16px;font-size:14px}
+.bub.s{background:var(--ink);color:#fff;border-bottom-left-radius:4px}
+.bub.me{background:var(--lav-l);color:#3F33B0;margin-left:auto;border-bottom-right-radius:4px}
+.chipsel{display:inline-flex;align-items:center;gap:6px;padding:8px 13px;border-radius:999px;border:2px solid var(--line);font-weight:700;font-size:13px;cursor:pointer;background:#fff}
+.chipsel.on{border-color:var(--teal);background:var(--mint);color:var(--teal-d)}
+</style></head><body>
+<div class="phone">
+ <div class="bar-top"><img src="../../static/shetu_logo.png"><span style="font-size:13px;color:var(--muted);margin-left:auto">Bank Alpha</span></div>
+ <div class="content">
+<div><p class="k">Hold · during leave</p><h1 style="margin-top:6px">Your role is held</h1><p class="sub">Rest. Nobody will contact you. Questions go to whoever covers.</p></div>
+<div class="card" style="background:var(--ink);color:#fff;border:0"><p class="k" style="color:var(--sun)">Still in your name</p>
+ <div style="display:flex;flex-wrap:wrap;gap:6px;margin-top:10px"><span class="pill" style="background:rgba(255,255,255,.14);color:#fff">Client portfolio</span><span class="pill" style="background:rgba(255,255,255,.14);color:#fff">Credit proposals</span><span class="pill" style="background:rgba(255,255,255,.14);color:#fff">Quarter-end review</span></div></div>
+<p class="k">What changed, and why</p>
+<div class="card"><p class="demo">2027-05-14</p><p style="font-weight:700;margin-top:4px">Client F moved to Rafiq after a merger</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Merger of client F&#39;s group with an account Rafiq already holds.</p>
+ <span class="pill" style="background:var(--green-l);color:var(--green);margin-top:8px">HR approved</span></div><div class="card"><p class="demo">2027-06-30</p><p style="font-weight:700;margin-top:4px">Mid-year review</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Rated on her pre-leave record, as company policy says.</p>
+ <span class="pill" style="background:var(--green-l);color:var(--green);margin-top:8px">Fair leave rule applied</span></div><div class="card"><p class="demo">2027-07-20</p><p style="font-weight:700;margin-top:4px">Promotion board</p><p style="font-size:13px;color:var(--muted);margin-top:4px">Eligible and considered on her pre-leave record.</p>
+ <span class="pill" style="background:var(--green-l);color:var(--green);margin-top:8px">Considered</span></div>
+<button class="btn g" style="justify-content:center"><i data-lucide="message-square"></i>Ask HR to review a change</button>
+</div>
+ <nav class="tabs">
+  <a href="../../me/" class=""><i data-lucide="home"></i>Home</a>
+  <a href="../../me/map/" class=""><i data-lucide="map"></i>Map</a>
+  <a href="../../me/hold/" class="on"><i data-lucide="shield-check"></i>Hold</a>
+  <a href="../../me/fit/" class=""><i data-lucide="puzzle"></i>Fit</a>
+ </nav>
+</div>
+<script>lucide.createIcons();document.querySelectorAll('.chipsel').forEach(c=>c.addEventListener('click',()=>c.classList.toggle('on')));
+document.querySelectorAll('[data-confirm]').forEach(b=>b.addEventListener('click',()=>{b.classList.add('done');b.innerHTML='Done'}));</script>
+</body></html>
